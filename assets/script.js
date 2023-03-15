@@ -24,10 +24,10 @@ fetch("https://striveschool-api.herokuapp.com/books")
       grid.appendChild(col);
     });
     const buttons = document.querySelectorAll(".bottone");
-
     buttons.forEach(button => {
       button.addEventListener("click", event => {
-        document.querySelector(".col").className = "d-none";
+        const card = event.target.closest(".col");
+        card.classList.add("d-none");
       });
     });
   })
