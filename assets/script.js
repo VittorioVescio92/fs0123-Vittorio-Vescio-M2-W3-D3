@@ -17,7 +17,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
                             <img class="card-image" src=${book.img}>
                             <div class="card-bottom d-flex flex-row justify-content-between align-items-center p-3">
                             <p class="card-text ps-3 m-0">€ ${book.price}</p>
-                            <button class="bottone bg-dark text-light pe-3">HIDE</button>
+                            <button class="bottone bg-dark text-light pe-3 rounded-4">HIDE</button>
                         </div>
                     </div>
                         `;
