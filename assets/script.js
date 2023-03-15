@@ -11,7 +11,7 @@ fetch("https://striveschool-api.herokuapp.com/books")
       const col = document.createElement("div");
       col.className = "col";
       col.innerHTML = `
-                    <div class="card mt-5 rounded-4 border border-2 border-dark shadow-lg">
+                    <div class="card my-5 rounded-4 border border-2 border-dark shadow-lg">
                         <div class="card-body d-flex flex-column p-0 bg-warning rounded-4 border border-2 border-dark">
                             <h5 class="card-title d-flex align-items-center justify-content-center py-5 px-3 fs-6 text-center p-3">${book.title}</h5>
                             <img class="card-image" src=${book.img}>
