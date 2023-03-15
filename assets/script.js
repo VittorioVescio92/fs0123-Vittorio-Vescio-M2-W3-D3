@@ -26,8 +26,8 @@ fetch("https://striveschool-api.herokuapp.com/books")
     const buttons = document.querySelectorAll(".bottone");
     buttons.forEach(button => {
       button.addEventListener("click", event => {
-        const card = event.target.closest(".col");
-        card.classList.add("d-none");
+        const hideCol = event.target.closest(".col");
+        hideCol.classList.add("d-none");
       });
     });
   })
